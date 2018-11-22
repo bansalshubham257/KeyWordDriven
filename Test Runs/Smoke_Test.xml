@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MS Dynamics CRM Application Test Automation Test Suite" parallel="false">
+    
+	<listeners>
+		<listener class-name="com.dynamics.qa.util.ExtentReporterNG" />
+		<listener class-name="com.dynamics.qa.util.LocalScreenshot" />
+		<listener class-name="com.dynamics.qa.util.CustomTestNGReporter" />
+	</listeners>
+	
+<!--  	<test name="Position Regression Cases">	
+		<classes>
+			<class name="com.dynamics.qa.testcases.PositionPageTest"></class>
+		</classes>
+	</test>   -->
+	
+	<!-- <test name="Product Regression Cases">
+		<classes>
+			<class name="com.dynamics.qa.testcases.ProductPageTest"></class>
+		</classes>
+	</test>	
+	
+	<test name="PositionGroup Regression Cases">	
+		<classes>
+			<class name="com.dynamics.qa.testcases.PositionGroupPageTest"></class>
+		</classes>
+	</test>  
+	
+	<test name="KeyMesseges Regression Cases">	
+		<classes>
+			<class name="com.dynamics.qa.testcases.KeyMessagePageTest"></class>
+		</classes>
+	</test>
+	
+	<test name="Contacts Regression Cases">	
+		<classes>
+			<class name="com.dynamics.qa.testcases.ContactPageTest"></class>
+		</classes>
+	</test>
+	
+	<test name="ScheduleMeeting Regression Cases">	
+		<classes>
+			<class name="com.dynamics.qa.testcases.ScheduleMeetingPageTest"></class>
+		</classes>
+	</test>
+	
+	<test name="Segment Call Plan Regression Cases">	
+		<classes>
+			<class name="com.dynamics.qa.testcases.SegmentCallPlanPageTest"></class>
+		</classes>
+	
+	</test> 
+ 		<test name="Rep Call Plan In Rep Login Regression Cases">	
+		<classes>
+			<class name="com.dynamics.qa.testcases.RepCallPlanPageTest"></class>
+		</classes>
+	</test> -->
+	 
+	 <test name="WFE Meeting Regression Cases">	
+		<classes>
+			<class name="com.dynamics.qa.testcases.WFEPageTest"></class>
+		</classes>
+	</test>	
+	
+	<test name="After WFE Meeting checking details in Dynamics of that Meeting Regression Cases">	
+		<classes>
+			<class name="com.dynamics.qa.testcases.MeetingDetailsPageTest"></class>
+		</classes>
+	</test>	   
+	
+</suite>

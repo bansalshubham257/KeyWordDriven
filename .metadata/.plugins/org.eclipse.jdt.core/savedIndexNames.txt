@@ -1,0 +1,1 @@
+INDEX VERSION 1.130+D:\E Drive\CRM\Git_Automation_Dynamics\qa-automation\MS_DYNAMICS\.metadata\.plugins\org.eclipse.jdt.core

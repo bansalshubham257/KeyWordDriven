@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MS Dynamics CRM Application Test Automation Test Suite" parallel="false">
+    
+	<listeners>
+		<listener class-name="com.dynamics.qa.util.ExtentReporterNG" />
+		<listener class-name="com.dynamics.qa.util.LocalScreenshot" />
+		<listener class-name="com.dynamics.qa.util.CustomTestNGReporter" />
+	</listeners>
+	
+	<test name="Position Regression Scripts">	
+		<classes>
+			<class name="com.dynamics.qa.testcases.PositionPageTest"></class>
+		</classes>
+	</test>
+	
+</suite>	
